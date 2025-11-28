@@ -1,0 +1,44 @@
+<svg width="640" height="640" viewBox="0 0 640 640" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .hex { fill: none; stroke: #111111; stroke-width: 2; }
+    .circle { fill: none; stroke: #111111; stroke-width: 2; }
+    .label { font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 13px; fill: #111111; text-anchor: middle; }
+    .title-text { font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 18px; fill: #111111; font-weight: 600; text-anchor: middle; }
+    .note-text { font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 12px; fill: #111111; text-anchor: middle; }
+  </style>
+
+  <text x="320" y="40" class="title-text">
+    Hexadic Symbolic Model (Public-Safe)
+  </text>
+
+  <!-- Outer hexagon -->
+  <polygon class="hex"
+    points="
+      320,110
+      445,165
+      445,295
+      320,350
+      195,295
+      195,165
+    " />
+
+  <!-- Inner circle -->
+  <circle cx="320" cy="230" r="40" class="circle" />
+
+  <!-- Center label -->
+  <text x="320" y="225" class="label">Human–AI</text>
+  <text x="320" y="242" class="label">Interaction Field</text>
+
+  <!-- Node labels -->
+  <text x="320" y="100" class="label">water_bridge</text>
+  <text x="460" y="170" class="label">fire_vector</text>
+  <text x="460" y="300" class="label">air_anomaly</text>
+  <text x="320" y="365" class="label">earth_memory</text>
+  <text x="180" y="300" class="label">ether_law</text>
+  <text x="180" y="170" class="label">prime_architect</text>
+
+  <!-- Bottom note -->
+  <text x="320" y="420" class="note-text">
+    Hexadic structure is symbolic only; it marks conceptual roles, not executable agents.
+  </text>
+</svg>
