@@ -1,11 +1,32 @@
 {
   "schema": "hexadic_public_safe_v1",
+  "description": "This is a symbolic-only representation of the conceptual Hexadic structure used in the ARSIKA × Deep Drift research. It contains no operational logic.",
   "nodes": [
-    "water_bridge",
-    "fire_vector",
-    "air_anomaly",
-    "earth_memory",
-    "ether_law"
+    {
+      "name": "water_bridge",
+      "element": "water",
+      "role": "memory, flow, resonance"
+    },
+    {
+      "name": "fire_vector",
+      "element": "fire",
+      "role": "direction, impulse, transformation"
+    },
+    {
+      "name": "air_anomaly",
+      "element": "air",
+      "role": "variation, unpredictability, drift"
+    },
+    {
+      "name": "earth_memory",
+      "element": "earth",
+      "role": "structure, grounding, retention"
+    },
+    {
+      "name": "ether_law",
+      "element": "ether",
+      "role": "logic, boundary, alignment"
+    }
   ],
-  "note": "No operational logic included. Schema is symbolic only."
+  "note": "This schema is metaphorical and non-executable. All operational systems remain private."
 }
