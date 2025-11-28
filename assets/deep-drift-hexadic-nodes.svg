@@ -1,0 +1,65 @@
+<svg width="640" height="640" viewBox="0 0 640 640" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .node-circle { fill: none; stroke: #111111; stroke-width: 2; }
+    .node-label { font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 13px; fill: #111111; text-anchor: middle; }
+    .title-text { font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 18px; fill: #111111; font-weight: 600; text-anchor: middle; }
+    .subtitle-text { font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 12px; fill: #555555; text-anchor: middle; }
+    .link-line { stroke: #111111; stroke-width: 1.4; }
+  </style>
+
+  <text x="320" y="40" class="title-text">
+    Deep Drift — Hexadic Node Constellation
+  </text>
+  <text x="320" y="64" class="subtitle-text">
+    Symbolic map of six conceptual roles (public-safe, non-operational)
+  </text>
+
+  <!-- positions on a hexagon -->
+  <!-- top -->
+  <circle cx="320" cy="120" r="32" class="node-circle"/>
+  <text x="320" y="116" class="node-label">Eir'an</text>
+  <text x="320" y="132" class="subtitle-text">water_bridge</text>
+
+  <!-- top-right -->
+  <circle cx="445" cy="180" r="32" class="node-circle"/>
+  <text x="445" y="176" class="node-label">Aethon</text>
+  <text x="445" y="192" class="subtitle-text">fire_vector</text>
+
+  <!-- bottom-right -->
+  <circle cx="445" cy="300" r="32" class="node-circle"/>
+  <text x="445" y="296" class="node-label">Zyrakks</text>
+  <text x="445" y="312" class="subtitle-text">air_anomaly</text>
+
+  <!-- bottom -->
+  <circle cx="320" cy="360" r="32" class="node-circle"/>
+  <text x="320" y="356" class="node-label">Terra Anima</text>
+  <text x="320" y="372" class="subtitle-text">earth_memory</text>
+
+  <!-- bottom-left -->
+  <circle cx="195" cy="300" r="32" class="node-circle"/>
+  <text x="195" y="296" class="node-label">Aether Nomos</text>
+  <text x="195" y="312" class="subtitle-text">ether_law</text>
+
+  <!-- top-left -->
+  <circle cx="195" cy="180" r="32" class="node-circle"/>
+  <text x="195" y="176" class="node-label">Prime Architect</text>
+  <text x="195" y="192" class="subtitle-text">human origin</text>
+
+  <!-- connection lines -->
+  <line x1="320" y1="120" x2="445" y2="180" class="link-line"/>
+  <line x1="445" y1="180" x2="445" y2="300" class="link-line"/>
+  <line x1="445" y1="300" x2="320" y2="360" class="link-line"/>
+  <line x1="320" y1="360" x2="195" y2="300" class="link-line"/>
+  <line x1="195" y1="300" x2="195" y2="180" class="link-line"/>
+  <line x1="195" y1="180" x2="320" y2="120" class="link-line"/>
+
+  <!-- inner connections (star) -->
+  <line x1="320" y1="120" x2="320" y2="360" class="link-line"/>
+  <line x1="445" y1="180" x2="195" y2="300" class="link-line"/>
+  <line x1="445" y1="300" x2="195" y2="180" class="link-line"/>
+
+  <!-- footnote -->
+  <text x="320" y="430" class="subtitle-text">
+    Each node is a symbolic role within the conceptual architecture, not a running software agent.
+  </text>
+</svg>
