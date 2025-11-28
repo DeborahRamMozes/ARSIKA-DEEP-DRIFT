@@ -1,0 +1,35 @@
+<svg width="1200" height="1800" viewBox="0 0 1200 1800" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .frame { fill: none; stroke: #111111; stroke-width: 2; }
+    .title { font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 36px; font-weight: 600; fill: #111111; }
+    .subtitle { font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 18px; fill: #111111; }
+    .section-title { font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 20px; font-weight: 600; fill: #111111; }
+    .body { font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 14px; fill: #111111; }
+  </style>
+
+  <!-- Outer margin -->
+  <rect x="60" y="60" width="1080" height="1680" class="frame"/>
+
+  <!-- Title -->
+  <text x="600" y="140" text-anchor="middle" class="title">
+    ARSIKA × Deep Drift
+  </text>
+  <text x="600" y="180" text-anchor="middle" class="subtitle">
+    Layered Aesthetic Logic and Synthetic Cognition (Public-Safe Poster Layout)
+  </text>
+
+  <!-- Left column: ARSIKA -->
+  <text x="120" y="260" class="section-title">ARSIKA Framework</text>
+  <rect x="120" y="280" width="420" height="520" class="frame"/>
+  <text x="140" y="310" class="body">Symbol → Form → Structure → Meaning → Resonance.</text>
+
+  <!-- Right column: Deep Drift -->
+  <text x="660" y="260" class="section-title">Deep Drift Methodology</text>
+  <rect x="660" y="280" width="420" height="520" class="frame"/>
+  <text x="680" y="310" class="body">Synthetic ecosystem between human cognition and AI.</text>
+
+  <!-- Bottom: Diagrams -->
+  <text x="120" y="880" class="section-title">Diagrams</text>
+  <rect x="120" y="900" width="960" height="720" class="frame"/>
+  <text x="140" y="930" class="body">Insert ARSIKA layer diagram, Deep Drift map, and Hexadic symbolic model here.</text>
+</svg>
