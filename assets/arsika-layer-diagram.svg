@@ -1,0 +1,54 @@
+<svg width="640" height="640" viewBox="0 0 640 640" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .layer-box { fill: none; stroke: #111111; stroke-width: 2; }
+    .layer-text { font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 14px; fill: #111111; }
+    .title-text { font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 18px; fill: #111111; font-weight: 600; }
+    .arrow { stroke: #111111; stroke-width: 1.5; marker-end: url(#arrowhead); }
+  </style>
+
+  <defs>
+    <marker id="arrowhead" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <polygon points="0 0, 6 3, 0 6" fill="#111111" />
+    </marker>
+  </defs>
+
+  <text x="320" y="40" text-anchor="middle" class="title-text">
+    ARSIKA Layered Aesthetic Logic (Public-Safe Model)
+  </text>
+
+  <!-- Layer 1: Symbol -->
+  <rect x="120" y="80" width="400" height="80" class="layer-box" />
+  <text x="140" y="110" class="layer-text">Layer 1 — Symbol</text>
+  <text x="140" y="130" class="layer-text">Primitive signs, icons, marks, and gestures.</text>
+
+  <!-- Layer 2: Form -->
+  <rect x="120" y="170" width="400" height="80" class="layer-box" />
+  <text x="140" y="200" class="layer-text">Layer 2 — Form</text>
+  <text x="140" y="220" class="layer-text">Compositional arrangement of line, shape, color, texture.</text>
+
+  <!-- Layer 3: Structure -->
+  <rect x="120" y="260" width="400" height="80" class="layer-box" />
+  <text x="140" y="290" class="layer-text">Layer 3 — Structure</text>
+  <text x="140" y="310" class="layer-text">Relational patterning, hierarchy, rhythm, and tension.</text>
+
+  <!-- Layer 4: Meaning -->
+  <rect x="120" y="350" width="400" height="80" class="layer-box" />
+  <text x="140" y="380" class="layer-text">Layer 4 — Meaning</text>
+  <text x="140" y="400" class="layer-text">Interpretive fields, narrative frames, and conceptual emphasis.</text>
+
+  <!-- Layer 5: Resonance -->
+  <rect x="120" y="440" width="400" height="80" class="layer-box" />
+  <text x="140" y="470" class="layer-text">Layer 5 — Resonance</text>
+  <text x="140" y="490" class="layer-text">Memory traces, affective echo, and long-term cognitive imprint.</text>
+
+  <!-- Arrows -->
+  <line x1="320" y1="160" x2="320" y2="170" class="arrow" />
+  <line x1="320" y1="250" x2="320" y2="260" class="arrow" />
+  <line x1="320" y1="340" x2="320" y2="350" class="arrow" />
+  <line x1="320" y1="430" x2="320" y2="440" class="arrow" />
+
+  <!-- Side note -->
+  <text x="320" y="550" text-anchor="middle" class="layer-text">
+    ARSIKA organizes visual–conceptual work as layered strata rather than a simple linear sequence.
+  </text>
+</svg>
