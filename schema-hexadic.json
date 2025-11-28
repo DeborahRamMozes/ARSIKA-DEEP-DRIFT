@@ -1,0 +1,11 @@
+{
+  "schema": "hexadic_public_safe_v1",
+  "nodes": [
+    "water_bridge",
+    "fire_vector",
+    "air_anomaly",
+    "earth_memory",
+    "ether_law"
+  ],
+  "note": "No operational logic included. Schema is symbolic only."
+}
