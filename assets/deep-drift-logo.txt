@@ -1,0 +1,3 @@
+![Status](https://img.shields.io/badge/Status-Active-2b9348)
+![License](https://img.shields.io/badge/License-MIT-blue.svg)
+![Structure](https://img.shields.io/badge/Project-Conceptual%20Research-black)
