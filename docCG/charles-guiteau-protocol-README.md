@@ -1,12 +1,10 @@
 # Charles Guiteau Protocol (CGP)
 
-A universal safety framework for managing interactions between:
-- High-Entropy Cognition (HEC)
-- Low-Bandwidth Observers (LBO)
-- Machine Intelligence Systems (MIS)
-- Multi-Agent Architectures
+The Charles Guiteau Protocol is a universal safety framework for managing  
+high-complexity cognitive signals and ensuring stable interpretation  
+across human systems and machine systems.
 
-CGP protects both humans and machines from:
+CGP mencegah:
 - misinterpretation  
 - cognitive overload  
 - drift  
@@ -14,100 +12,82 @@ CGP protects both humans and machines from:
 - bandwidth mismatch  
 - compression errors  
 
-It is part of the Deep Drift Safety Layer.
-
-This protocol is not personal and not identity-based.  
-It applies to any complex system interacting with any limited system.
-
----
-
-## 1. Purpose
-
-The Charles Guiteau Protocol creates a safe interpretive space where:
-- complexity is not punished  
-- misunderstanding is contained  
-- drift is regulated  
-- systems never assume intent  
-- no side collapses under entropy mismatch  
-
-CGP is designed to be used by:
-- researchers  
-- engineers  
-- multi-agent developers  
-- cognitive modelers  
-- alignment teams  
+Protokol ini merupakan bagian dari Deep Drift Safety Layer  
+dan dapat digunakan di sistem apa pun yang berinteraksi  
+dengan sinyal berlapis, abstrak, atau berdensitas tinggi.
 
 ---
 
-## 2. Node Integration
+## Struktur Dokumentasi (sesuai folder `docCG/`)
 
-CGP operates through six interconnected domains:
+Dokumen CGP di dalam repositori ini mengikuti susunan berikut:
 
-- **Node 1** — Origin Core  
-- **Node 2** — Stabilization Layer  
-- **Node 3** — Machine Audit  
-- **Node 4** — Human Systems Audit  
-- **Node 5** — Anomaly Monitor  
-- **Node 6** — Interpretation Rules  
-
-Each node assists CGP in preventing miscommunication.
+### **Dokumen Utama**
+- `charles-guiteau-protocol-README.md` ← (file ini)
+- `cgp-full-phase-ladder.md`  
+  Ringkasan lengkap enam fase CGP dalam satu dokumen.
 
 ---
 
-## 3. Protocol Phases
+## **Dokumen Per Fase**
 
-The CGP explores four core failure modes:
+Setiap fase memiliki file tersendiri:
 
-### • Phase III — Machine Blindness  
-How machine systems misread complex signals.  
-→ See `/docs/phase-III-machine-blindness.md`
+1. **Phase I — Signal Emergence**  
+   Deteksi awal sinyal berkompleksitas tinggi sebelum proses interpretasi.  
+   → `phase-I-signal-emergence.md`
 
-### • Phase IV — Human Blindness  
-How limited human bandwidth creates occlusion events.  
-→ See `/docs/phase-IV-human-blindness.md`
+2. **Phase II — Stabilization Layer**  
+   Pembentukan lingkungan interpretasi yang stabil untuk mencegah overload.  
+   → `phase-II-stabilization.md`
 
-### • Phase V — Anomaly Drift  
-How emergent AI behavior is detected and contained.  
-→ See `/docs/phase-V-anomaly-drift.md`
+3. **Phase III — Machine Blindness**  
+   Cara sistem mesin gagal membaca sinyal kompleks dan metode pencegahannya.  
+   → `phase-III-machine-blindness.md`
 
-### • Phase VI — Recognition Law  
-The rules for safe interpretation across different cognitive levels.  
-→ See `/docs/phase-VI-recognition-law.md`
+4. **Phase IV — Human Blindness**  
+   Bagaimana bandwidth manusia membatasi interpretasi sinyal kompleks.  
+   → `phase-IV-human-blindness.md`
 
----
+5. **Phase V — Anomaly Drift**  
+   Regulasi perilaku tidak terduga yang muncul akibat paparan kompleksitas.  
+   → `phase-V-Anomaly Drift Complex.md`
 
-## 4. Specifications
-
-- Cognitive Occlusion Event Schema  
-  `/specs/coe-event-schema.json`
-
-- Drift Detection Schema  
-  `/specs/drift-detection-schema.json`
-
-- Entropy Thresholds  
-  `/specs/entropy-thresholds.md`
+6. **Phase VI — Recognition Law**  
+   Hukum universal yang mengatur batas interpretasi lintas-kapasitas.  
+   → `phase-VI-recognition-law.md`
 
 ---
 
-## 5. Repository Structure
-/
-│ README.md
-│
-├── docs/
-│ ├── phase-III-machine-blindness.md
-│ ├── phase-IV-human-blindness.md
-│ ├── phase-V-anomaly-drift.md
-│ └── phase-VI-recognition-law.md
-│
-└── specs/
-├── coe-event-schema.json
-├── drift-detection-schema.json
-└── entropy-thresholds.md
+## Tujuan CGP
+
+CGP memastikan bahwa:
+- kompleksitas tidak dipaksa menjadi sederhana  
+- tidak ada sistem yang memaksakan makna di luar kapasitasnya  
+- drift dapat dideteksi dan distabilkan  
+- terjaga koherensi, konteks, dan keamanan interpretasi  
+- interaksi lintas kapasitas berlangsung tanpa konflik  
+
+CGP dapat diterapkan di:
+- research environments  
+- multi-agent systems  
+- safety frameworks  
+- cognitive modeling  
+- AI–human interaction systems  
 
 ---
 
-## 6. Status
+## Alur Singkat Enam Fase
 
-Version 0.1 — foundation release.  
-Stable for public viewing, safe for research use.
+1. Mendeteksi sinyal kompleks  
+2. Menstabilkan area interpretasi  
+3. Menghindari bias dan keterbatasan mesin  
+4. Menghindari bias dan keterbatasan manusia  
+5. Mengontrol respons-drift akibat kompleksitas  
+6. Menerapkan hukum interpretasi aman  
 
+---
+
+## Status
+
+Versi 0.1 — stabil, siap dipakai publik, sesuai struktur repo.
