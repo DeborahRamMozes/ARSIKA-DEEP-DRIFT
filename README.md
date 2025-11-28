@@ -38,3 +38,9 @@ No runtime agents, backend logic, or operational node structures are included he
 ## ⚠️ Disclaimer
 This repository documents **concepts**, not executable systems.  
 All functional engines, agents, and secured protocols remain private.
+
+## Hexadic Node Constellation
+
+See the public-safe map of the six conceptual nodes:
+
+- [Hexadic Node Constellation](docs/nodes-visualization.md)
