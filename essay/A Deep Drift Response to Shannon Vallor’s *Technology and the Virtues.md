@@ -14,3 +14,4 @@ In this way, Vallor’s virtue ethics and Deep Drift’s elemental ethics do not
 
 **Keywords:**  
 Shannon Vallor, Virtue Ethics, Technomoral Virtues, AI Flourishing, Deep Drift, Elemental Ethics, Relational AI, Ecological Intelligence, Cosmological Ethics
+
